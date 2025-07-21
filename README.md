@@ -30,16 +30,23 @@ Here are the key findings from the analysis, explained through the generated vis
 
 This plot shows the daily average AQI for India over the five-year period.
 
-![National Average AQI Trend]<img width="1242" height="630" alt="national_average_aqi_trend_over_ime" src="https://github.com/user-attachments/assets/b0dfc565-10e8-436b-b487-04ebd13bf5c8" />
+<img width="900" height="600" alt="national_average_aqi_trend_over_ime" src="https://github.com/user-attachments/assets/b0dfc565-10e8-436b-b487-04ebd13bf5c8" />
 
 
 * **Insight:** The AQI in India shows significant **seasonal fluctuations**. There is a recurring pattern where pollution levels rise towards the end of the year and drop mid-year. A noticeable dip is visible around early 2020, which may correspond to the reduced industrial and vehicular activity during the initial COVID-19 lockdowns.
+  
+### 2. City-wise AQI Analysis (Top 5 most polluted cities)
 
-### 2. Pollutant Correlation Heatmap
+This plot shows the city-wise analysis of AQI.
+
+<img width="900" height="600" alt="AQI Trend in Top 5 Most Polluted Cities" src="https://github.com/user-attachments/assets/a3eb4bb4-fcc4-47db-9754-1578f77886cf" />
+
+### 3. Pollutant Correlation Heatmap
 
 This heatmap reveals the strength of the linear relationship between different pollutants and the AQI.
 
-![Correlation Heatmap](Correlation%20Heatmap%20of%20Pollutants%20and%20AQI.png)
+<img width="900" height="600" alt="Correlation Heatmap of Pollutants and AQI" src="https://github.com/user-attachments/assets/826ebc17-d9e3-40bf-aba7-8c7117a62a4f" />
+
 
 * **Insight:** **Particulate matter (PM2.5 and PM10) exhibits the strongest positive correlation with AQI** (0.69 and 0.64, respectively). This indicates that these microscopic particles are the primary drivers of poor air quality in India. Other pollutants like NO2 and CO also show a moderate positive correlation.
 
