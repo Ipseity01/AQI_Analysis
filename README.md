@@ -11,7 +11,7 @@ The analysis is based on the "Air Quality Data in India (2015-2020)" dataset, wh
 * **Features:** `Date`, `City`, `PM2.5`, `PM10`, `NO`, `NO2`, `NOx`, `NH3`, `CO`, `SO2`, `O3`, `Benzene`, `Toluene`, `Xylene`, `AQI`, and `AQI_Bucket`.
 
 ---
-## 🛠Methodology
+## Methodology
 
 The project follows a structured data analysis pipeline:
 
@@ -30,7 +30,8 @@ Here are the key findings from the analysis, explained through the generated vis
 
 This plot shows the daily average AQI for India over the five-year period.
 
-![National Average AQI Trend](national%20average%20aqi%20trend.png)
+![National Average AQI Trend]<img width="1242" height="630" alt="national_average_aqi_trend_over_ime" src="https://github.com/user-attachments/assets/b0dfc565-10e8-436b-b487-04ebd13bf5c8" />
+
 
 * **Insight:** The AQI in India shows significant **seasonal fluctuations**. There is a recurring pattern where pollution levels rise towards the end of the year and drop mid-year. A noticeable dip is visible around early 2020, which may correspond to the reduced industrial and vehicular activity during the initial COVID-19 lockdowns.
 
