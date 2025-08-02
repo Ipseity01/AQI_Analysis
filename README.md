@@ -48,7 +48,7 @@ This heatmap reveals the strength of the linear relationship between different p
 <img width="400" height="400" alt="Correlation Heatmap of Pollutants and AQI" src="https://github.com/user-attachments/assets/826ebc17-d9e3-40bf-aba7-8c7117a62a4f" />
 
 
-* **Insight:** **Particulate matter (PM2.5 and CO) exhibits the strongest positive correlation with AQI** (0.63 and 0.65, respectively). This indicates that these microscopic particles are the primary drivers of poor air quality in India. Other pollutants like NO2 and CO also show a moderate positive correlation.
+* **Insight:** **Particulate matter (PM2.5 and CO) exhibits the strongest positive correlation with AQI** (0.63 and 0.65, respectively). This indicates that these microscopic particles are the primary drivers of poor air quality in India. Other pollutants like NO2 and PM10 also show a moderate positive correlation.
 
 ### 4. Distribution of AQI Buckets
 
@@ -75,7 +75,7 @@ This plot shows the cyclical nature of air pollution throughout the year.
 <img width="500" height="400" alt="Monthly Average AQI in India" src="https://github.com/user-attachments/assets/b11d8ad0-4388-44e1-87df-1b76dbe10deb" />
 
 
-* **Insight:** Air quality worsens significantly during the **winter months (October to January)** and is at its best during the **monsoon season (July to September)**. This pattern is likely due to a combination of meteorological factors like temperature inversion in winter and the cleansing effect of rain during the monsoon.
+* **Insight:** Air quality worsens significantly during the **winter months (October to January)** and is at its best during the **monsoon season (July to September)**. This pattern is likely due to a combination of meteorological factors like temperature inversion in winter and the cleansing effect of rain during the monsoon. In northern cities like Delhi, burning of crop stubble is also one of the major contributors of high AQI during the winter months.
 
 ### 7. PM2.5 vs. AQI Scatter Plot
 
@@ -116,7 +116,7 @@ This clustering helps in identifying regional patterns and allows for targeted p
 ---
 ## Conclusion
 
-This analysis reveals that air quality in India is a significant concern driven primarily by particulate matter (PM2.5 and PM10). Pollution follows a strong seasonal pattern, peaking in winter. While some cities enjoy relatively better air, major urban centers, especially Delhi, face severe and persistent air pollution. Clustering cities based on their pollution profiles can help authorities to understand the varying severity of the problem across the country and devise more effective, region-specific strategies to combat it.
+This analysis reveals that air quality in India is a significant concern driven primarily by particulate matter (PM2.5). Pollution follows a strong seasonal pattern, peaking in winter. While some cities enjoy relatively better air, major urban centers, especially Delhi, face severe and persistent air pollution. Clustering cities based on their pollution profiles can help authorities to understand the varying severity of the problem across the country and devise more effective, region-specific strategies to combat it.
 
 ---
 ## Technologies Used
@@ -124,3 +124,4 @@ This analysis reveals that air quality in India is a significant concern driven 
 * **Pandas & NumPy** for data manipulation
 * **Matplotlib, Seaborn & Plotly** for data visualization
 * **Scikit-learn** for K-Means clustering
+* **Power Bi** for dashboard
